@@ -1,0 +1,25 @@
+{
+  "name": "sitio-recetas",
+  "version": "1.0.0",
+  "description": "**Edit a file, create a new file, and clone from Bitbucket in under 2 minutes**",
+  "main": "index.html",
+  "dependencies": {
+    "bootstrap": "^4.5.2",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1"
+  },
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://felipebertocchi@bitbucket.org/felipebertocchi/sitio-recetas.git"
+  },
+  "author": "Felipe Bertocchi",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/felipebertocchi/sitio-recetas#readme"
+}
