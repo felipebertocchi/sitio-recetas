@@ -1,0 +1,31 @@
+.jumbotron {
+  /* Estilo obtenido de https://cssgradient.io/ */
+  background: rgb(225,212,255);
+  background: -moz-linear-gradient(36deg, rgba(225,212,255,1) 0%, rgba(192,242,242,1) 100%);
+  background: -webkit-linear-gradient(36deg, rgba(225,212,255,1) 0%, rgba(192,242,242,1) 100%);
+  background: linear-gradient(36deg, rgba(225,212,255,1) 0%, rgba(192,242,242,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#e1d4ff",endColorstr="#c0f2f2",GradientType=1);
+
+  margin-bottom: 0;
+}
+
+.custom {
+  /* Editar el ancho de los botones de bookmark y like */
+  width: 35px;
+}
+
+#intro {
+  padding-bottom: 15px;
+}
+
+.card-text {
+  padding-bottom: 10px;
+}
+
+p {
+  margin: 0px
+}
+
+footer {
+  padding: 10px 50px 0 50px;
+}

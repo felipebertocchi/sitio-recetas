@@ -15,12 +15,22 @@
 
   <body>
     
+    <div class="jumbotron">
+      <h1 class="display-4">Recetas de cocina</h1>
+      <p class="lead">
+        Encuentra las mejores recetas para comer rico y saludable.
+      </p>
+      <hr class="my-4" />
+    </div>
+
     <div class="album py-5 bg-light">
       <div class="container">
+        <h2>Recetas</h2>
+        <p id="intro">Aprende a preparar cientos de recetas fáciles de cocina casera. Con explicaciones detalladas, fotos paso a paso y los mejores trucos estos platos siempre salen de maravilla. Anímate a cocinar todos los días para llevar una alimentación más sana y equilibrada ¡Que la dificultad no sea una excusa!</p>
   
         <div class="row">
 
-          <div class="col-md-4">
+          <div class="col-md-6 col-lg-4">
             <div class="card mb-4 shadow-sm">
               <img src="https://parrillas.top/wp-content/uploads/2020/01/Receta-de-panqueques-de-avena-y-platano.jpg" class="card-img-top" alt="">
               <div class="card-body">
@@ -28,16 +38,21 @@
                 <p class="card-text">Si lo que buscas es llevar una alimentación saludable pero deliciosa, estos panqueques de avena son ideales para ti.</p>
                 <div class="d-flex justify-content-between align-items-center">
                   <div class="btn-group">
-                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                    <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                    <button type="button" class="btn btn-sm btn-outline-danger custom" data-toggle="button">
+                      <i class="far fa-heart"></i>
+                    </button>
+                    <button type="button" class="btn btn-sm btn-outline-success custom" data-toggle="button">
+                      <i class="far fa-bookmark"></i>
+                    </button>  
                   </div>
+                  <a href="#" class="card-link">Ver Receta</a>
                   <small class="text-muted">Por César Avila</small>
                 </div>
               </div>
             </div>
           </div>
-          
-          <div class="col-md-4">
+
+          <div class="col-md-6 col-lg-4">
             <div class="card mb-4 shadow-sm">
               <img src="https://unareceta.com/wp-content/uploads/2014/12/sandwich-de-atun.jpg" class="card-img-top" alt="">
               <div class="card-body">
@@ -45,16 +60,21 @@
                 <p class="card-text">El sándwich de atún es un tipo de sándwich muy popular, que usualmente se realiza con atún de lata, mayonesa y vegetales. En algunas variantes se usa aceite de oliva en lugar de mayonesa.​​</p>
                 <div class="d-flex justify-content-between align-items-center">
                   <div class="btn-group">
-                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                    <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                    <button type="button" class="btn btn-sm btn-outline-danger custom" data-toggle="button">
+                      <i class="far fa-heart"></i>
+                    </button>
+                    <button type="button" class="btn btn-sm btn-outline-success custom" data-toggle="button">
+                      <i class="far fa-bookmark"></i>
+                    </button>  
                   </div>
-                  <small class="text-muted">Por Mike Townsend</small>
+                  <a href="#" class="card-link">Ver Receta</a>
+                  <small class="text-muted">Por Flor Perez</small>
                 </div>
               </div>
             </div>
           </div>
 
-          <div class="col-md-4">
+          <div class="col-md-6 col-lg-4">
             <div class="card mb-4 shadow-sm">
               <img src="https://okdiario.com/img/recetas/2017/03/06/pasta-alfredo.jpg" class="card-img-top" alt="">
               <div class="card-body">
@@ -62,9 +82,14 @@
                 <p class="card-text">La famosa salsa Alfredo está hecha a base de mantequilla, crema y cebolla, es muy fácil de preparar y sin duda le da a la pasta un sabor muy especial.</p>
                 <div class="d-flex justify-content-between align-items-center">
                   <div class="btn-group">
-                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                    <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                    <button type="button" class="btn btn-sm btn-outline-danger custom" data-toggle="button">
+                      <i class="far fa-heart"></i>
+                    </button>
+                    <button type="button" class="btn btn-sm btn-outline-success custom" data-toggle="button">
+                      <i class="far fa-bookmark"></i>
+                    </button>  
                   </div>
+                  <a href="#" class="card-link">Ver Receta</a>
                   <small class="text-muted">Por Juan Cruz</small>
                 </div>
               </div>
@@ -76,17 +101,36 @@
       </div>
     </div>
   
-    
-
+    <!-- Font Awesome, para agregar iconos dentro de la pagina -->
+    <script src="https://kit.fontawesome.com/344d15d4e3.js" crossorigin="anonymous"></script>
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <script src="node_modules/popper.js/dist/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
   </body>
 
   <footer>
-
-
-
+    <div class="row d-flex">
+      <div class="col-sm-4 d-flex flex-column">
+        <p>Redes Sociales:</p>
+        <a href="https://www.facebook.com/">Facebook</a>
+        <a href="https://www.instagram.com/">Instagram</a>
+        <a href="https://www.twitter.com/">Twitter</a>
+      </div>
+      <div class="col-sm-4 d-flex flex-column">
+        <address>
+          <h4>Oficina Central</h4>
+          <p>Tucuman 834, CABA, Argentina</p>
+          <p>+54 9 11 4628-5925</p>
+          <p>contacto@recetas.com</p>
+        </address>
+      </div>
+      <div class="col-sm-4 d-flex flex-column text-right">
+        <a href="#">Quienes Somos</a>
+        <a href="#">Precios</a>
+        <a href="#">Términos y Condiciones</a>
+        <a href="#">Contacto</a>
+      </div>
+    </div>
   </footer>
 
 </html>
